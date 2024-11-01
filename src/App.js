@@ -137,11 +137,12 @@ function App() {
               </label>
             </div>
           </div>
-          <input
+          <button
             type="submit"
-            placeholder="Envoyer"
             className="semi bg-white w-full h-12 hover:cursor-pointer hover:bg-slate-200"
-          />
+          >
+            Envoyer
+          </button>
         </form>
       </div>
     </div>
