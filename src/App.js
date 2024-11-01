@@ -41,7 +41,7 @@ function App() {
       <div className="flex items-center justify-center ">
         <form className="max-w-2xl w-full px-5 md:px-0">
           <div className="flex-col flex md:flex-row gap-10 justify-between pb-12 w-full">
-            <div className="relative lg:w-72 mb-10 md:mb-0">
+            <div className="relative lg:w-72 mb-5 md:mb-0">
               <input
                 type="text"
                 className="peer w-full h-10 px-2 pt-4 pb-2 text-white bg-transparent  focus:border-b-2 border-b-2 border-white focus:border focus:border-t-2 focus:border-l-2 focus:border-r-2 focus:border-white focus:outline-none"
@@ -55,7 +55,7 @@ function App() {
                 Nom
               </label>
             </div>
-            <div className="relative lg:w-72">
+            <div className="relative lg:w-72 mb-5 md:mb-0">
               <input
                 type="text"
                 className="peer w-full h-10 px-2 pt-4 pb-2 text-white bg-transparent border-b-2  focus:border-b-2 border-white focus:border focus:border-t-2 focus:border-l-2 focus:border-r-2 focus:border-white focus:outline-none"
@@ -71,7 +71,7 @@ function App() {
             </div>
           </div>
           <div className="flex-col flex md:flex-row gap-10 justify-between pb-12 w-full">
-            <div className="relative lg:w-72 mb-10 md:mb-0">
+            <div className="relative lg:w-72 mb-5 md:mb-0">
               <select className="peer w-full h-10 px-2 pt-2  pb-2 text-white bg-transparent border-b-2 border-white appearance-none focus:border focus:border-t-2 focus:border-l-2 focus:border-r-2 focus:border-b-2 focus:border-white focus:outline-none">
                 <option value="" disabled selected hidden></option>
                 <option value="M." className="semi text-black">
@@ -92,7 +92,7 @@ function App() {
                 Civilité
               </label>
             </div>
-            <div className="relative lg:w-72">
+            <div className="relative lg:w-72 mb-5 md:mb-0">
               <input
                 type="text"
                 className="peer w-full h-10 px-2 pt-4 pb-2 text-white bg-transparent border-b-2  focus:border-b-2 border-white focus:border focus:border-t-2 focus:border-l-2 focus:border-r-2 focus:border-white focus:outline-none"
@@ -108,7 +108,7 @@ function App() {
             </div>
           </div>
           <div className="flex-col flex md:flex-row gap-10 justify-between pb-12 w-full">
-            <div className="relative lg:w-72 mb-10 md:mb-0">
+            <div className="relative lg:w-72 mb-5 md:mb-0">
               <input
                 type="email"
                 className="peer w-full h-10 px-2 pt-4 pb-2 text-white  focus:border-b-2 bg-transparent border-b-2 border-white focus:border focus:border-t-2 focus:border-l-2 focus:border-r-2 focus:border-white focus:outline-none"
@@ -122,7 +122,7 @@ function App() {
                 E-mail
               </label>
             </div>
-            <div className="relative lg:w-72">
+            <div className="relative lg:w-72 mb-5 md:mb-0">
               <input
                 type="text"
                 className="peer w-full h-10 px-2 pt-4 pb-2 text-white  focus:border-b-2 bg-transparent border-b-2 border-white focus:border focus:border-t-2 focus:border-l-2 focus:border-r-2 focus:border-white focus:outline-none"
