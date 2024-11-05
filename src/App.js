@@ -52,7 +52,7 @@ function App() {
             sensations oubliées et à réinventer votre façon de conduire.
           </p> */}
           <br />
-          <p className="text-lg font-bold">"Are you ready to love again?"</p>
+          <p className="text-lg font-bold">Are you ready to love again?</p>
           <br />
           <p className="text-lg italic">
             Inscrivez-vous pour être parmi les premiers à redécouvrir le plaisir
