@@ -37,25 +37,26 @@ function App() {
       <div className="text-white flex justify-center items-center pb-16">
         <div className="max-w-2xl px-5 md:px-0 text-justify">
           <h1 className="semi text-center text-3xl">
-            NOUVEAU ALFA ROMEO JUNIOR
+            NOUVEAU ALFA ROMEO 
           </h1>
           <br /> <br />
           <p className="text-lg">
-            Découvrez bientôt une nouvelle histoire d'amour avec la route.
-            Laissez-vous séduire par un design captivant, une précision
-            artisanale, et une expérience de conduite qui réveille la passion.
+            Alfa Romeo vous invite à raviver la flamme avec un nouveau modèle
+            qui incarne l’élégance et la précision, conçu pour vous faire vibrer
+            à chaque virage. Préparez-vous à redécouvrir la passion automobile
+            comme jamais auparavant.
           </p>
-          <br />
+          {/* <br />
           <p className="text-lg">
             Le nouveau Alfa Romeo Junior arrive, prêt à redonner vie aux
             sensations oubliées et à réinventer votre façon de conduire.
-          </p>
+          </p> */}
           <br />
           <p className="text-lg font-bold">"Are you ready to love again?"</p>
           <br />
           <p className="text-lg italic">
-            Inscrivez-vous pour être parmi les premiers à découvrir le nouveau
-            chapitre d'Alfa Romeo.
+            Inscrivez-vous pour être parmi les premiers à redécouvrir le plaisir
+            de conduire avec Alfa Romeo.
           </p>
         </div>
       </div>
