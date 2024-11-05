@@ -91,11 +91,11 @@ function App() {
             value="83"
             title="Marque d&#39;intérêt"
           />
-          <input
+          {/* <input
             type="hidden"
             name="retURL"
-            value="https://www.alfaromeo.co.ma"
-          />
+            value=""
+          /> */}
           <br />
           <br />
           <div className="flex-col flex md:flex-row gap-10 justify-between pb-12 w-full">
@@ -221,15 +221,9 @@ function App() {
           </div>
           <button
             onClick={(e) => {
-              e.preventDefault(); // Prevents immediate form submission
-
-              if (Timer) {
-                // Check if the timer is done
-                notify(); // Show the toast notification
-                setTimeout(() => {
-                  e.target.closest("form").submit(); // Submit the form after 1 second
-                }, 1000); // 1 second delay before form submission
-              }
+              e.preventDefault(); // Prevents the default form submission
+              notify(); // Show the toast notification
+              e.target.closest("form").submit(); // Submit the form after showing toast
             }}
             type="submit"
             className="semi bg-white w-full h-12 hover:cursor-pointer hover:bg-slate-200"
